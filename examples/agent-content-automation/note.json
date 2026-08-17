@@ -1,0 +1,7 @@
+{
+  "format": "note",
+  "title": "A short note",
+  "bodyMarkdown": "Published through the HTTP API example.",
+  "status": "published",
+  "visibility": "public"
+}

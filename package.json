@@ -1,0 +1,17 @@
+{
+  "name": "my-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "jant migrate --local && node scripts/dev.mjs",
+    "deploy": "jant deploy",
+    "reset-password": "jant reset-password",
+    "export": "jant export"
+  },
+  "dependencies": {
+    "@jant/core": "^0.6.16"
+  },
+  "devDependencies": {
+    "wrangler": "^4.76.0"
+  }
+}
